@@ -1,16 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace AdventOfCode.day2
+﻿namespace AdventOfCode.Day2
 {
     internal class Challenge1
     {
         public void Run()
         {
-            var inputString = File.ReadAllText(Environment.CurrentDirectory + "/day2/input.txt");
+            var inputString = File.ReadAllText(Environment.CurrentDirectory + "/Day2/input.txt");
 
             var rounds = inputString.Split(Environment.NewLine);
 

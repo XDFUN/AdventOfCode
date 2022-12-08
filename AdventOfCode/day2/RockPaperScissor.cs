@@ -1,4 +1,4 @@
-﻿namespace AdventOfCode.day2
+﻿namespace AdventOfCode.Day2
 {
     internal enum RockPaperScissor
     {

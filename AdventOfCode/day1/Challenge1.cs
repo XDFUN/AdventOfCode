@@ -1,10 +1,10 @@
-﻿namespace AdventOfCode.day1
+﻿namespace AdventOfCode.Day1
 {
     internal class Challenge1
     {
         public void Run()
         {
-            var inputString = File.ReadAllText(Environment.CurrentDirectory + "/day1/input.txt");
+            var inputString = File.ReadAllText(Environment.CurrentDirectory + "/Day1/input.txt");
 
             var elveBackpacks = inputString.Split(Environment.NewLine + Environment.NewLine);
 

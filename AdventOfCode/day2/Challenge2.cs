@@ -1,12 +1,10 @@
-﻿using System.ComponentModel;
-
-namespace AdventOfCode.day2
+﻿namespace AdventOfCode.Day2
 {
     internal class Challenge2
     {
         public void Run()
         {
-            var inputString = File.ReadAllText(Environment.CurrentDirectory + "/day2/input.txt");
+            var inputString = File.ReadAllText(Environment.CurrentDirectory + "/Day2/input.txt");
 
             var rounds = inputString.Split(Environment.NewLine);
 
